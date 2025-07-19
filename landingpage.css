@@ -1,122 +1,227 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
- 
+
 }
-.header-1{
-  background-color: #1433D6;
+
+.header-1 {
+    background-color: #1433D6;
 }
-.first-header{
+
+.first-header {
     display: flex;
     gap: 1em;
     width: 30%;
     margin-left: auto;
 }
-.first-header a li{
-    color:white;
+
+.first-header a li {
+    color: white;
 }
-@media(max-width:1129px){
-    .first-header{
+
+@media(max-width:1129px) {
+    .first-header {
         margin-left: 100px;
-     
+
     }
 }
-@media(max-width:1125px){
-    .first-header{
+
+@media(max-width:1125px) {
+    .first-header {
         margin: auto;
         gap: 1.5em;
         width: 50%;
     }
 }
-@media(max-width:647px){
-    .first-header{
+
+@media(max-width:647px) {
+    .first-header {
         width: 100%;
     }
 }
-@media(max-width:378px){
-       .first-header{
+
+@media(max-width:378px) {
+    .first-header {
         display: none;
-       }
+    }
 }
+
 /* header-2*/
-.header-2{
-   background-color: white;
+.header-2 {
+    background-color: white;
+  
 }
-nav{
-   display: flex;
+
+nav {
+    display: flex;
     width: 100%;
     margin: auto;
     justify-content: space-around;
     align-items: center;
 }
-.second-header{
+
+.second-header {
     display: flex;
     gap: 1.5em;
 }
-.fa-solid{
+
+.fa-solid {
     color: #000C2A;
 }
-.second-header li a{
-     color: #000C2A;
+
+.second-header li a {
+    color: #000C2A;
 }
-.log{
+
+.log {
     display: flex;
     gap: 1em;
     align-items: center;
-    
+
 }
-.log a{
-     color: #000C2A;
-     justify-content: center;
+
+.log a {
+    color: #000C2A;
+    justify-content: center;
 }
-.log button{
-   padding:10px 14px; 
-   background-color:#0069FF;
-   justify-content: center;
-   border-radius: 18px;
-   border: none;
+
+.log button {
+    padding: 10px 14px;
+    background-color: #0069FF;
+    justify-content: center;
+    border-radius: 18px;
+    border: none;
 }
-.log button:hover{
+
+.log button:hover {
     background-color: #1433D6;
 }
-.log button a{
-     color: white;
+
+.log button a {
+    color: white;
     font-size: 1.2em;
     font-weight: 1em;
-  
+
 }
-.fa-bars{
+
+.fa-bars {
     font-size: 2em;
     visibility: hidden;
-    
+
 }
-@media(max-width:1186px){
-    nav{
+
+@media(max-width:1186px) {
+    nav {
         width: 80%;
     }
 }
-@media(max-width:1189px){
-         .second-header{
-           display: none;
-    }
-}
-@media(max-width:1004px){
-      .fa-bars{
-        visibility: visible;
-    }
-}
-@media(max-width:544px){
-    .log{
+
+@media(max-width:1189px) {
+    .second-header {
         display: none;
     }
 }
 
+@media(max-width:1004px) {
+    .fa-bars {
+        visibility: visible;
+    }
+}
+
+@media(max-width:544px) {
+    .log {
+        display: none;
+    }
+}
+
+/* hero-sect */
+.hero-sect{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid red;
+
+}
+.hero-left{
+    padding-left: 200px;
+    padding-top: 50px;
+}
+.hero-left h1{
+    color: #000C2A;
+    margin-bottom: 8px;
+    font-size: 3em;
+    font-weight: 650;
+    border: 2px solid red;
+}
+.hero-left p{
+    margin-bottom: 10px;
+}
+.hero-ground{
+    /* background-image: linear-gradient(to right, blue); */
+    height: 130vh;
+    background-color: #0069FF;
+    position: relative;
+    border: 2px solid black;
+}
 
 
+img{
+    align-items: center;
+}
+.btn {
+    display: grid;
+}
 
-  
+.btn-1 {
+    margin-bottom: 6px;
+   
 
+}
+
+.btn-1 button {
+    padding: 10px 54px;
+}
+
+.btn-2 {
+    margin-bottom: 6px;
+    align-items: center;
+    
+
+
+}
+
+.btn-2 button {
+    padding: 8px 40px;
+     
+}
+
+.btn-3 button {
+    padding: 8px 40px;
+    align-items: center;
+}
+
+
+button a {
+    color: black;
+    font-size: 1.2em;
+}
+
+button a:hover {
+    color: white;
+    background-color: #1433D6;
+}
+
+button {
+    border-radius: 70px;
+    background-color: white;
+    border: 1px thin #000C2A;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #1433D6;
+    color: white;
+}
