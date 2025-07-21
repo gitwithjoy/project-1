@@ -10,7 +10,7 @@
 
 .header-1 {
     background-color: #1433D6;
-    
+
 }
 
 .first-header {
@@ -27,6 +27,10 @@
     color: white;
     /* z-index: 1000;
     position: fixed; */
+}
+
+.first-header a li:hover {
+    text-decoration: underline;
 }
 
 @media(max-width:1129px) {
@@ -70,8 +74,8 @@ nav {
     margin: auto;
     justify-content: space-around;
     align-items: center;
-  
-} 
+
+}
 
 .second-header {
     display: flex;
@@ -184,9 +188,10 @@ nav {
 
 .hero-image {
     bottom: 50px;
-    padding-right: 60px;
+    position: absolute;
+    /* padding-right: 60px;
     padding-top: 150px;
-  
+   */
 
 }
 
@@ -245,48 +250,54 @@ button:hover {
     background-color: #1433D6;
     color: white;
 }
+
 /* sect-1 */
-.sect-1{
-  margin-bottom: 100px;
-    
-}
-.sect-1a{
-display: flex;
-align-items: center;
-width: 100%;
-justify-content: space-between;
-width: 90%;
-margin: auto;
-margin-bottom: 10px;
+.sect-1 {
+    margin-bottom: 100px;
 
 }
-.sect-1a h1{
-  right: 70px;
+
+.sect-1a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+
 }
-.arrow{
+
+.sect-1a h1 {
+    right: 70px;
+}
+
+.arrow {
     display: flex;
     align-items: center;
     gap: 1em;
     padding-right: 40px;
-   
-    
+
+
 }
 
-.arrow .fa-arrow-left{
-    border-radius:4px ;
-    padding: 12px ;
+.arrow .fa-arrow-left {
+    border-radius: 4px;
+    padding: 12px;
     background-color: #E3E8F4;
     color: white;
     border-radius: 18px;
-    
+
 }
-.arrow .fa-arrow-right{
-     padding: 12px;
-     background-color: #1433D6;
-     color: white;
-     border-radius: 18px;
+
+.arrow .fa-arrow-right {
+    padding: 12px;
+    background-color: #1433D6;
+    color: white;
+    border-radius: 18px;
 }
-.sect-1card{
+
+.sect-1card {
     width: 350px;
     height: 350px;
     padding: 28px;
@@ -294,114 +305,300 @@ margin-bottom: 10px;
     background-color: #F9FAFE;
     border: 2px solid #E2E4E9;
 }
-.sect-1card h5{
+
+.sect-1card h5 {
     background-color: #FFA14A;
     width: 40%;
     border-radius: 5px;
     margin-bottom: 18px;
 }
-.sect-1card h2{
+
+.sect-1card h2 {
     margin-bottom: 100px;
 
 }
+
 .sect-1card a {
     color: black;
-   
+
 }
-.sect-1card a:hover{
+
+.sect-1card a:hover {
     text-decoration: underline;
 }
-.sect-1card .fa-arrow-right:hover{
+
+.sect-1card .fa-arrow-right:hover {
     text-decoration: underline;
 }
-.sect-1b{
-    display: flex;
-    gap: 2em;
+
+.sect-1b {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* gap: 1em; */
     margin: auto;
     width: 90%;
 }
-@media(max-width:544px){
-    .sect-1b{
+
+@media(max-width:544px) {
+    .sect-1b {
         display: grid;
     }
 }
+
 /* sect-2 */
-.sect-2{
+.sect-2 {
     justify-content: center;
     display: flex;
     margin: auto;
     background-color: #F9FAFE;
     margin-bottom: 100px;
-    
+
 }
-.pt1{
+
+.pt1 {
     border: 2px solid red;
     width: 55%;
     height: 292px;
     padding: 10px;
-    border:2px solid #E2E4E9;
+    border: 2px solid #E2E4E9;
 }
-.pt1 h1{
- /* margin-top: 30px; */
- margin-bottom: 16px;
+
+.pt1 h1 {
+    /* margin-top: 30px; */
+    margin-bottom: 16px;
 }
-.pt1 p{
+
+.pt1 p {
     margin-bottom: 90px;
 }
-.pt1  a{
+
+.pt1 a {
     color: black;
 }
-.pt1 a:hover{
+
+.pt1 a:hover {
     text-decoration: underline;
 }
-.pt2 img{
+
+.pt2 img {
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
 }
-@media(max-width:1105px){
-       .sect-2{
+
+@media(max-width:1105px) {
+    .sect-2 {
         display: none;
-       }
+    }
 }
+
 /* sect-3 */
-.sect-3{
-    
+.sect-3 {
+
     background-image: url(./images/sect-3img.png);
     height: 60vh;
     position: relative;
     align-items: center;
 
-    
 
 
-    
+
+
 }
-.sect-3cards{
+
+.sect-3cards {
     display: flex;
-    /* border: 2px solid red; */
     width: 80%;
     justify-content: space-around;
     position: absolute;
-    top: 200px;
+    top: 160px;
     left: 120px;
-    
+
 
 }
-.sect-3card h1{
+
+.sect-3card h1 {
     margin-bottom: 10px;
 }
-.sect-3card p{
+
+.sect-3card p {
     font-size: 1em;
     font-weight: 300;
-    
+
 }
 
-.sect-3card span{
+.sect-3card span {
     text-decoration: underline;
     color: #1433D6;
 }
 
+/* sect-4 */
+.sect-4 {
+    margin-bottom: 100px;
+}
+
+.sect-4a {
+    margin-bottom: 100px;
+
+}
 
 
+.sect-4a h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 2em;
 
-    
+
+}
+
+.sect-4a p {
+    text-align: center;
+
+}
+
+.sect-4a h4 {
+    text-align: center;
+
+}
+
+.sect-4a a {
+    color: black;
+}
+
+.sect-4a h4 :hover {
+    text-decoration: underline;
+
+}
+
+.sect-4bcards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    width: 80%;
+    margin: auto;
+}
+
+.sect-4bcard {
+    border: 3px solid #E2E4E9;
+    width: 350px;
+    height: 320px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #F9FAFE;
+}
+
+
+.sect4b-heading {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px dotted;
+    margin-bottom: 40px;
+
+
+}
+
+.sect-4bcard p {
+    margin-bottom: 56px;
+}
+
+.sect-4bcard span {
+    text-decoration: underline;
+    color: #0069FF;
+}
+
+.sect-4bcard span:hover {
+    background-color: #1433D6;
+    color: white;
+}
+
+.sect-4bcard a {
+    color: black;
+}
+
+/* sect-5 */
+.sect-5 {
+    background-image: url(./images/sect-5bg.png);
+    height: 160vh;
+    position: relative;
+    margin-bottom: 100px;
+
+}
+
+.sect-5first {
+    position: absolute;
+    left: 300px;
+    top: 90px;
+}
+
+.sect-5first h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sect-5first p {
+    text-align: center;
+}
+
+.sect-5second {
+   position: absolute;
+    top: 250px;
+    height: 120vh;
+    width: 100%;
+
+
+}
+
+.sect-5card1 {
+
+    width: 520px;
+    height: 300px;
+    padding: 20px;
+    background-color: white;
+    left: 70px;
+    position: absolute;
+    border: 3px solid #E2E4E9;
+    border-radius: 16px;
+
+}
+.sect-5card2{
+    width: 520px;
+    height: 300px;
+    padding: 20px;
+    background-color: white;
+    left: 660px;
+    position: absolute;
+    border: 3px solid #E2E4E9;
+    border-radius: 16px;
+  
+
+}
+.sect-5card2 span{
+    color: #0069FF;
+    text-decoration: underline;
+}
+.sect-5card2 span:hover{
+    color: white;
+    background-color: #1433D6;
+}
+.sect-5card3{
+    width: 520px;
+    height: 300px;
+    padding: 20px;
+    background-color: white;
+    left: 70px;
+    position: absolute;
+    border: 3px solid #E2E4E9;
+    border-radius: 16px;
+    top: 330px;
+ 
+}
+.sect-5card4{
+     width: 520px;
+    height: 300px;
+    padding: 20px;
+    background-color: white;
+    left: 660px;
+    position: absolute;
+    border: 3px solid #E2E4E9;
+    border-radius: 16px;
+    top: 330px;
+}
