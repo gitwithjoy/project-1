@@ -80,7 +80,11 @@ nav {
 .second-header {
     display: flex;
     gap: 1.5em;
+  
 }
+
+
+
 
 .fa-solid {
     color: #000C2A;
@@ -520,7 +524,6 @@ button:hover {
     height: 160vh;
     position: relative;
     margin-bottom: 100px;
-
 }
 
 .sect-5first {
@@ -539,7 +542,7 @@ button:hover {
 }
 
 .sect-5second {
-   position: absolute;
+    position: absolute;
     top: 250px;
     height: 120vh;
     width: 100%;
@@ -548,7 +551,6 @@ button:hover {
 }
 
 .sect-5card1 {
-
     width: 520px;
     height: 300px;
     padding: 20px;
@@ -557,9 +559,9 @@ button:hover {
     position: absolute;
     border: 3px solid #E2E4E9;
     border-radius: 16px;
-
 }
-.sect-5card2{
+
+.sect-5card2 {
     width: 520px;
     height: 300px;
     padding: 20px;
@@ -568,18 +570,19 @@ button:hover {
     position: absolute;
     border: 3px solid #E2E4E9;
     border-radius: 16px;
-  
-
 }
-.sect-5card2 span{
+
+.sect-5card2 span {
     color: #0069FF;
     text-decoration: underline;
 }
-.sect-5card2 span:hover{
+
+.sect-5card2 span:hover {
     color: white;
     background-color: #1433D6;
 }
-.sect-5card3{
+
+.sect-5card3 {
     width: 520px;
     height: 300px;
     padding: 20px;
@@ -589,10 +592,10 @@ button:hover {
     border: 3px solid #E2E4E9;
     border-radius: 16px;
     top: 330px;
- 
 }
-.sect-5card4{
-     width: 520px;
+
+.sect-5card4 {
+    width: 520px;
     height: 300px;
     padding: 20px;
     background-color: white;
@@ -601,4 +604,458 @@ button:hover {
     border: 3px solid #E2E4E9;
     border-radius: 16px;
     top: 330px;
+}
+
+/* sect-6 */
+.sect-6 {
+    margin-bottom: 100px;
+}
+
+.firstsect-6 {
+    width: 80%;
+    margin: auto;
+    border-bottom: 2px solid black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.firstsect-6 h1 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+
+.firstsect-6 p {
+    margin-bottom: 70px;
+}
+
+.sect-6btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    gap: 2em;
+}
+
+.sect-6btn a button {
+    padding: 8px;
+}
+
+.sect-6btn button {
+    border: none;
+    background-color: #F9FAFE;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.sect-6btn a button:hover {
+    background-color: #1433D6;
+    color: white;
+}
+
+.secondsect-6 {
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+}
+
+.secondsect-6 img {
+    border-radius: 10px;
+}
+
+.words {
+    text-align: center;
+}
+
+.words h1 {
+    margin-top: 90px;
+    margin-bottom: 16px;
+}
+
+.words p {
+    margin-bottom: 30px;
+}
+
+.words a {
+    color: black;
+}
+
+.words a:hover {
+    text-decoration: underline;
+}
+
+/* sect-7 */
+.sect-7 {
+    background-color: #F9FAFE;
+    height: 100vh;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.sect-7mini {
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    width: 70%;
+    justify-content: center;
+    gap: 3em;
+    padding: 30px 0px;
+    position: absolute;
+    border-radius: 16px;
+    border: 3px solid #E2E4E9;
+    left: 200px;
+    background-color: white;
+}
+
+.set-7mini img {
+    margin-bottom: 100px;
+}
+
+.text p {
+    margin-top: 30px;
+}
+
+.text-mini {
+    display: flex;
+    gap: 1em;
+}
+
+.text-mini img {
+    border-radius: 50%;
+}
+
+/* sect-8 */
+.sect-8 {
+    margin-bottom: 100px;
+}
+
+.sect-8mini {
+    width: 90%;
+    margin: auto;
+    background-color: #1433D6;
+    border-radius: 26px;
+    display: flex;
+    padding: 20px;
+}
+
+.sect-8right h1 {
+    color: white;
+    margin-bottom: 10px;
+
+}
+
+.sect-8right p {
+    color: white;
+    margin-bottom: 30px;
+    line-height: 1.8;
+
+}
+
+.sect-8right a h4 {
+    color: white;
+}
+
+.sect-8right .fa-arrow-right {
+    color: white;
+}
+
+/* sect-9 */
+.sect-9 {
+    background-color: #F9FAFE;
+    margin-bottom: 100px;
+    height: 150vh;
+
+}
+
+.sect-9 h1 {
+    text-align: center;
+    margin-bottom: 100px;
+    font-weight: 700;
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+.achor {
+    display: flex;
+    margin: auto;
+    width: 74%;
+    height: 40px;
+    justify-content: center;
+    gap: 0.5em;
+    align-items: center;
+    border-radius: 20px;
+    /* border: 2px solid red; */
+    text-align: center;
+    background-color: #D6DCEA;
+    margin-bottom: 60px;
+}
+
+.achors {
+    background-color: #D6DCEA;
+    /* border: 2px solid purple; */
+    border-radius: 20px;
+    width: 66%;
+    /* height: 40px; */
+    text-align: center;
+    justify-content: center;
+
+}
+
+.achors a {
+    padding: 6px 40px;
+    background-color: #D6DCEA;
+    border-radius: 20px;
+
+}
+
+.achors a:hover {
+    background-color: #1433D6;
+}
+
+.first-achor {
+    background-color: #1433D6;
+
+    /* border: 2px solid crimson; */
+    padding: 4px 40px;
+    border-radius: 20px;
+
+
+}
+
+.first-achor img {
+    color: white;
+}
+
+.sect-9flex {
+    display: flex;
+    width: 80%;
+    /* border: 2px solid green; */
+    margin: auto;
+    padding: 15px;
+    gap: 6em;
+
+}
+
+.sect-9flex img {
+    border-radius: 12px;
+    background-color: white;
+}
+
+.mini-9flex {
+    width: 40%;
+}
+
+.mini-9flex h4 {
+    margin-bottom: 20px;
+}
+
+.mini-9flex a {
+    color: black;
+}
+
+.mini-9flex a:hover {
+    text-decoration: underline;
+}
+
+.flex {
+    display: flex;
+    /* gap: 1em; */
+    margin-bottom: 20px;
+
+}
+
+.flex img {
+    border-radius: 30px;
+}
+
+.heads {
+    align-items: center;
+}
+
+.words {
+    margin-bottom: 10px;
+}
+
+/* sect-10 */
+.sect-10 {
+    padding: 100px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.img {
+    background-image: url('./images/imgi_109_images.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    border-radius: 10px;
+
+}
+.sect10-text{
+    position: absolute;
+    right: 206px;
+    top: 50px;
+    text-align: center;
+    width: 60%;
+    padding: 20px;
+}
+.sect10-text h1{
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+.sect10-text p{
+      margin-bottom: 40px;
+}
+.sect10-text button{
+    padding: 8px 22px;
+    background-color: #1433D6;
+    color: white;
+    font-weight: 400;
+    font-size: 1em;
+    border: none;
+}
+.sect10-text button:hover{
+    background-color: #000C79;
+}
+/* footer */
+/* footer-1 */
+footer {
+    background-color: #F9FAFE;
+}
+
+.footer-1 {
+    display: flex;
+    /* border: 2px solid green; */
+    width: 80%;
+    margin: auto;
+    gap: 3em;
+    padding: 100px;
+
+}
+
+.foot1 h5 {
+    margin-bottom: 14px;
+}
+
+.foot1 ul {
+    line-height: 1.9;
+}
+
+.foot1 ul a li {
+    color: #000c2ab7;
+    font-size: 0.9em;
+}
+
+.foot1 ul a :hover {
+    color: black;
+}
+
+.foot2 h5 {
+    margin-bottom: 14px;
+}
+
+.foot2 ul {
+    line-height: 1.9;
+}
+
+.foot2 ul a li {
+    color: #000c2ab7;
+    font-size: 0.9em;
+
+}
+
+.foot2 ul a :hover {
+    color: black;
+}
+
+.foot3 h5 {
+    margin-bottom: 14px;
+}
+
+.foot3 ul {
+    line-height: 1.9;
+}
+
+.foot3 ul a li {
+    color: #000c2ab7;
+    font-size: 0.9em;
+
+}
+
+.foot3 ul a :hover {
+    color: black;
+}
+
+.foot4 h5 {
+    margin-bottom: 14px;
+}
+
+.foot4 ul {
+    line-height: 1.9;
+}
+
+.foot4 ul a li {
+    color: #000c2ab7;
+    font-size: 0.9em;
+
+}
+
+.foot4 ul a :hover {
+    color: black;
+}
+
+.foot5 h5 {
+    margin-bottom: 14px;
+}
+
+.foot5 ul {
+    line-height: 1.9;
+}
+
+.foot5 ul a li {
+    color: #000c2ab7;
+    font-size: 0.9em;
+
+}
+
+.foot5 ul a :hover {
+    color: black;
+}
+
+.footer2 {
+    display: flex;
+    /* border: 2px solid green; */
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+    height: 30px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.left p {
+    font-size: 0.8em;
+    color: #000c2ab7;
+}
+
+.left p:hover {
+    color: black;
+}
+
+.right {
+    display: flex;
+    gap: 0.6em;
+}
+
+.right img {
+    color: #000c2ab7;
 }
